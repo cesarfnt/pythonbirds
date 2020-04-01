@@ -112,7 +112,7 @@ class Direcao:
         self.valor = self.rotacao_a_direita_dct[self.valor]
     def girar_a_esquerda(self):
         self.valor = self.rotacao_a_esquerda_dct[self.valor]
-
+    #titulo
 
 class Motor:
     def __init__(self):
