@@ -133,7 +133,7 @@ class AtorTestes(TestCase):
         """
         # Armazenando status antes da colisão
         status_inicial_ator = ator.status
-        status_inicial_ator_2 = ator2.status
+        status_inicial_ator_2 = ator2.status #
 
         ator.colidir(ator2)
 
