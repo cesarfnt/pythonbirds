@@ -53,7 +53,7 @@ class PassaroFake(AtorFake):
         self._lancado = False
         self.colidir_com_chao_executado = False
 
-    def foi_lancado(self):
+    def foi_lancado(self) -> object:
         return self._lancado
 
     def lancar(self, angulo, tempo):
