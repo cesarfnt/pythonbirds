@@ -149,7 +149,7 @@ class Passaro(Ator):
         self.y = y_atual
 
     def _calcular_posicao_horizontal(self, delta_t):
-        x_atual = self._x_inicial #
+        x_atual = self._x_inicial
         angulo_radianos = self._angulo_de_lancamento
         x_atual += self.velocidade_escalar * delta_t * math.cos(angulo_radianos)
         self.x = x_atual
