@@ -154,7 +154,7 @@ class Passaro(Ator):
         x_atual += self.velocidade_escalar * delta_t * math.cos(angulo_radianos)
         self.x = x_atual
 
-    def _esta_voando(self): #
+    def _esta_voando(self):
         return self.foi_lancado() and self.status == ATIVO
 
 
